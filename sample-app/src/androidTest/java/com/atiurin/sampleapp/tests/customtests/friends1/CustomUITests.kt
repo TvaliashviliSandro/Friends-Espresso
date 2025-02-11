@@ -1,18 +1,11 @@
-package com.atiurin.sampleapp.tests.customtests
+package com.atiurin.sampleapp.tests.customtests.friends1
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import com.atiurin.sampleapp.activity.MainActivity
-import com.atiurin.sampleapp.pages.custompages.AddresseePage
-import com.atiurin.sampleapp.pages.custompages.CustomClicksPage
-import com.atiurin.sampleapp.pages.custompages.LandingPage
-import com.atiurin.sampleapp.steps.AddresseePageSteps
-import com.atiurin.sampleapp.steps.CustomClicksPageSteps
-import com.atiurin.sampleapp.steps.LandingPageSteps
+import com.atiurin.sampleapp.steps.friends1.AddresseePageSteps
+import com.atiurin.sampleapp.steps.friends1.CustomClicksPageSteps
+import com.atiurin.sampleapp.steps.friends1.LandingPageSteps
 import com.atiurin.sampleapp.tests.BaseTest
-import com.atiurin.ultron.extensions.clickCenterLeft
-import com.atiurin.ultron.extensions.isDisplayed
-import com.atiurin.ultron.extensions.tap
-import com.atiurin.ultron.extensions.typeText
 import org.junit.Rule
 import org.junit.Test
 

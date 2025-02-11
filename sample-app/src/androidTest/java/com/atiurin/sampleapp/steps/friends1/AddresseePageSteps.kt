@@ -1,16 +1,17 @@
-package com.atiurin.sampleapp.steps
+package com.atiurin.sampleapp.steps.friends1
 
-import com.atiurin.sampleapp.pages.custompages.AddresseePage.addressee
-import com.atiurin.sampleapp.pages.custompages.AddresseePage.sendButton
-import com.atiurin.sampleapp.pages.custompages.AddresseePage.sentText
-import com.atiurin.sampleapp.pages.custompages.AddresseePage.textInputBar
+import com.atiurin.sampleapp.data.Constants.ROSS_GELLER
+import com.atiurin.sampleapp.pages.custompages.friends1.AddresseePage.addressee
+import com.atiurin.sampleapp.pages.custompages.friends1.AddresseePage.sendButton
+import com.atiurin.sampleapp.pages.custompages.friends1.AddresseePage.sentText
+import com.atiurin.sampleapp.pages.custompages.friends1.AddresseePage.textInputBar
 import com.atiurin.ultron.extensions.isDisplayed
 import com.atiurin.ultron.extensions.tap
 import com.atiurin.ultron.extensions.typeText
 
 object AddresseePageSteps {
     fun checkAddresseeName(): AddresseePageSteps {
-        addressee.isDisplayed().hasText("Ross Geller")
+        addressee.isDisplayed().hasText(ROSS_GELLER)
         return this
     }
 

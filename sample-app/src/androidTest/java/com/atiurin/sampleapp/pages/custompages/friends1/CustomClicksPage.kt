@@ -1,7 +1,6 @@
-package com.atiurin.sampleapp.pages.custompages
+package com.atiurin.sampleapp.pages.custompages.friends1
 
 import android.view.View
-import androidx.test.espresso.matcher.ViewMatchers.hasBackground
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import com.atiurin.sampleapp.R
 import org.hamcrest.Matcher

@@ -1,9 +1,9 @@
-package com.atiurin.sampleapp.steps
+package com.atiurin.sampleapp.steps.friends1
 
-import com.atiurin.sampleapp.pages.custompages.CustomClicksPage.bottomLeft
-import com.atiurin.sampleapp.pages.custompages.CustomClicksPage.bottomRight
-import com.atiurin.sampleapp.pages.custompages.CustomClicksPage.topLeft
-import com.atiurin.sampleapp.pages.custompages.CustomClicksPage.topRight
+import com.atiurin.sampleapp.pages.custompages.friends1.CustomClicksPage.bottomLeft
+import com.atiurin.sampleapp.pages.custompages.friends1.CustomClicksPage.bottomRight
+import com.atiurin.sampleapp.pages.custompages.friends1.CustomClicksPage.topLeft
+import com.atiurin.sampleapp.pages.custompages.friends1.CustomClicksPage.topRight
 import com.atiurin.ultron.extensions.tap
 
 object CustomClicksPageSteps {
