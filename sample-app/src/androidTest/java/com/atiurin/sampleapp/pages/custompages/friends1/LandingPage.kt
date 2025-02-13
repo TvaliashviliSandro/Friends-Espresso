@@ -1,7 +1,6 @@
 package com.atiurin.sampleapp.pages.custompages.friends1
 
 import android.view.View
-import androidx.test.espresso.matcher.ViewMatchers.withClassName
 import androidx.test.espresso.matcher.ViewMatchers.withContentDescription
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
@@ -10,8 +9,6 @@ import com.atiurin.sampleapp.data.Constants.OPEN_NAV_DRAWER
 import com.atiurin.sampleapp.data.Constants.ROSS_GELLER
 import org.hamcrest.Matcher
 import org.hamcrest.Matchers.allOf
-import org.hamcrest.Matchers.equalTo
-import org.hamcrest.Matchers.hasXPath
 
 object LandingPage {
     val burgerMenu: Matcher<View> by lazy{ withId(R.id.toolbar) }
@@ -20,4 +17,5 @@ object LandingPage {
     val customClicks: Matcher<View> by lazy { allOf(withId(R.id.custom_clicks_nav_item)) }
     val burgerMenu2: Matcher<View> by lazy { withContentDescription(OPEN_NAV_DRAWER) }
     val UiElements: Matcher<View> by lazy { allOf(withId(R.id.ui_elements))}
+    val customName: Matcher<View> by lazy { withId(R.id.tv_name) }
 }
